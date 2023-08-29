@@ -1,0 +1,163 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "55-130-DIV",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,0,SECTION,1,DIV,0,ARTICLE,1,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV",
+            "selector": "div.paragraph__column--container-wrapper > div.container > div.paragraph--type--bp-columns__1col > div#tab-2426",
+            "boundingRect": {
+              "top": 1401,
+              "bottom": 2451,
+              "left": 30,
+              "right": 382,
+              "width": 352,
+              "height": 1050
+            },
+            "snippet": "<div class=\"paragraph paragraph--type--bp-tabs paragraph--view-mode--default paragraph…\" id=\"tab-2426\" aria-multiselectable=\"true\">",
+            "nodeLabel": "Unity\nHonor\nService\nDiversity & Inclusion\n\"Safer Together\"\n\nCollaboration\n\nCDPS…",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "aria-valid-attr-value",
+    "title": "`[aria-*]` attributes do not have valid values",
+    "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more](https://web.dev/aria-valid-attr-value/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "55-67-A",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,0,SECTION,1,DIV,0,ARTICLE,1,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,UL,0,LI,0,A",
+            "selector": "div.paragraph__column > ul.nav > li.active > a",
+            "boundingRect": {
+              "top": 1401,
+              "bottom": 1447,
+              "left": 30,
+              "right": 100,
+              "width": 70,
+              "height": 46
+            },
+            "snippet": "<a href=\"#tab-2426-1\" aria-controls=\"Unity\" role=\"tab\" data-toggle=\"tab\">",
+            "nodeLabel": "Unity",
+            "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"Unity\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "55-68-A",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,0,SECTION,1,DIV,0,ARTICLE,1,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,UL,1,LI,0,A",
+            "selector": "div.paragraph__column > ul.nav > li > a",
+            "boundingRect": {
+              "top": 1401,
+              "bottom": 1447,
+              "left": 102,
+              "right": 177,
+              "width": 75,
+              "height": 46
+            },
+            "snippet": "<a href=\"#tab-2426-2\" aria-controls=\"Honor\" role=\"tab\" data-toggle=\"tab\">",
+            "nodeLabel": "Honor",
+            "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"Honor\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "55-69-A",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,0,SECTION,1,DIV,0,ARTICLE,1,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,UL,2,LI,0,A",
+            "selector": "div.paragraph__column > ul.nav > li > a",
+            "boundingRect": {
+              "top": 1401,
+              "bottom": 1447,
+              "left": 179,
+              "right": 262,
+              "width": 84,
+              "height": 46
+            },
+            "snippet": "<a href=\"#tab-2426-3\" aria-controls=\"Service\" role=\"tab\" data-toggle=\"tab\">",
+            "nodeLabel": "Service",
+            "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"Service\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "55-70-A",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,4,DIV,0,MAIN,0,DIV,2,DIV,0,SECTION,1,DIV,0,ARTICLE,1,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,UL,3,LI,0,A",
+            "selector": "div.paragraph__column > ul.nav > li > a",
+            "boundingRect": {
+              "top": 1446,
+              "bottom": 1492,
+              "left": 30,
+              "right": 208,
+              "width": 178,
+              "height": 46
+            },
+            "snippet": "<a href=\"#tab-2426-4\" aria-controls=\"Diversity &amp; Inclusion\" role=\"tab\" data-toggle=\"tab\">",
+            "nodeLabel": "Diversity & Inclusion",
+            "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"Diversity & Inclusion\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 4
+  }
+]

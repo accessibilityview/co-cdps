@@ -1,0 +1,111 @@
+[
+  {
+    "id": "listitem",
+    "title": "List items (`<li>`) are not contained within `<ul>` or `<ol>` parent elements.",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>` or `<ol>` to be announced properly. [Learn more](https://web.dev/listitem/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-94-LI",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,0,SECTION,1,DIV,0,ARTICLE,1,DIV,0,DIV,4,U,0,LI",
+            "selector": "div > div.field > u > li",
+            "boundingRect": {
+              "top": 822,
+              "bottom": 846,
+              "left": 15,
+              "right": 1335,
+              "width": 1320,
+              "height": 24
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Adopt updated editions of the FMCSRs and CVSA Inspection and Out-of-Service Cri…",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-95-LI",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,0,SECTION,1,DIV,0,ARTICLE,1,DIV,0,DIV,4,U,1,LI",
+            "selector": "div > div.field > u > li",
+            "boundingRect": {
+              "top": 846,
+              "bottom": 870,
+              "left": 15,
+              "right": 1335,
+              "width": 1320,
+              "height": 24
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Update references to websites and to other applicable sections of the Colorado …",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-96-LI",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,0,SECTION,1,DIV,0,ARTICLE,1,DIV,0,DIV,4,U,2,LI",
+            "selector": "div > div.field > u > li",
+            "boundingRect": {
+              "top": 870,
+              "bottom": 894,
+              "left": 15,
+              "right": 1335,
+              "width": 1320,
+              "height": 24
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Clarify requirements related to appeals of civil penalties; and",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-97-LI",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,5,DIV,0,MAIN,0,DIV,2,DIV,0,SECTION,1,DIV,0,ARTICLE,1,DIV,0,DIV,4,U,3,LI",
+            "selector": "div > div.field > u > li",
+            "boundingRect": {
+              "top": 894,
+              "bottom": 918,
+              "left": 15,
+              "right": 1335,
+              "width": 1320,
+              "height": 24
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Update references for all incorporated or adopted guidelines, publications and …",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 4
+  }
+]
